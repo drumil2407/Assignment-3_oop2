@@ -27,6 +27,7 @@ namespace Assignment_3_oop2
 				Console.Write("\nHow many eggs should it lay? ");
 				if (!int.TryParse(Console.ReadLine(), out int numEggs)) { return; }
 				Egg[] eggs = bird.LayEggs(numEggs);
+
 				DisplayEggs(eggs);
 			}
 		}
