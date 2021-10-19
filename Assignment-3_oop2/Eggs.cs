@@ -30,7 +30,7 @@ namespace Assignment_3_oop2.Eggs
 		{
 			public BrokenEgg(double size, Colors color) : base(size, color)
 			{
-
+				
 			}
 
 		   public override string ToString()
